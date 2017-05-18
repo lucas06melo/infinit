@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('fonts/gotham/Gotham-Bold.eot');
+  src: url('fonts/gotham/Gotham-Bold.eot') format('embedded-opentype'), url('fonts/gotham/Gotham-Bold.woff2') format('woff2'), url('fonts/gotham/Gotham-Bold.woff') format('woff'), url('fonts/gotham/Gotham-Bold.ttf') format('truetype'), url('fonts/gotham/Gotham-Bold.svg') format('svg');
+
+}
+
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('fonts/gotham/Gotham-Black.eot');
+  src: url('fonts/gotham/Gotham-Black.eot') format('embedded-opentype'), url('fonts/gotham/Gotham-Black.woff2') format('woff2'), url('fonts/gotham/Gotham-Black.woff') format('woff'), url('fonts/gotham/Gotham-Black.ttf') format('truetype'), url('fonts/gotham/Gotham-Black.svg') format('svg');
+
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('fonts/gotham/Gotham-Light.eot');
+  src: url('fonts/gotham/Gotham-Light.eot') format('embedded-opentype'), url('fonts/gotham/Gotham-Light.woff2') format('woff2'), url('fonts/gotham/Gotham-Light.woff') format('woff'), url('fonts/gotham/Gotham-Light.ttf') format('truetype'), url('fonts/gotham/Gotham-Light.svg') format('svg');
+
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('fonts/gotham/Gotham-Book.eot');
+  src: url('fonts/gotham/Gotham-Book.eot') format('embedded-opentype'), url('fonts/gotham/Gotham-Book.woff2') format('woff2'), url('fonts/gotham/Gotham-Book.woff') format('woff'), url('fonts/gotham/Gotham-Book.ttf') format('truetype'), url('fonts/gotham/Gotham-Book.svg') format('svg');
+
+}
+
+#footer {
+  color:#fff;
+  /*background-color:#30225D;*/
+  background-image: url(../../assets/img/banner1.png);
+}
+
+.footer-top {
+  position: relative;
+  padding:30px 0
+}
+
+#footer .footer-bottom {
+  background-color: #fff;
+  padding: 20px 0 10px;
+}
+
+#footer .footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#footer .social-icons {
+  margin-top: 15px;
+}
+
+#footer .social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .social-icons ul li a {
+  background-color: rgba(0,0,0,.2);
+  border-radius: 4px;
+  line-height: 33px;
+}
+
+#footer .social-icons ul li a:hover {
+  color: #fff
+}
+
+#footer .social-icons ul li a.envelope:hover {
+  background-color: #CECB26;
+}
+
+#footer .social-icons ul li a.facebook:hover {
+  background-color: #3b5999;
+}
+#footer .social-icons ul li a.twitter:hover {
+  background-color: #2ac6f7;
+}
+#footer .social-icons ul li a.instagram:hover {
+  background-color: #cd486b;
+}
+#footer .social-icons ul li a.dribbble:hover {
+  background-color: #ff5b92;
+}
+#footer .social-icons ul li a.linkedin:hover {
+  background-color: #036dc0;
+}
+#footer .social-icons ul li a.tumblr:hover {
+  background-color: #ff6b00;
+}
+
+.social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.social-icons ul li {
+  float: left;
+  margin-right: 8px;
+}
+
+.social-icons ul li:last-child {
+  margin-right: 0;
+}
+
+.social-icons ul li a {
+  color:#fff;
+  background-color: #d9d9d9;
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  display: block;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.social-icons ul li a:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url(../../assets/img/banner.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
